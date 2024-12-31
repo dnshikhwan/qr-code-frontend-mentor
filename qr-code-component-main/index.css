@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-slate-300, #D5E1EF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: var(--color-white, #FFF);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 320px;
+
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.qr_image {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+
+.title {
+    color: #1F314F;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Outfit";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.description {
+    color: #68778D;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
